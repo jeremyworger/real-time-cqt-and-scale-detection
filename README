@@ -1,0 +1,13 @@
+This program uses the laptop microphone input, computes a constant Q transform, and finds a best fit of a major scale to whatever the CQT has computed. It plots the CQT and the scale onscreen, so you can watch them scroll by. 
+
+It requires chaco, enable, traits, and pyface from the Enthought distribution of python. It also requires numpy and scipy. All of that comes with the free Enthought distribution so that is highly recommended. 
+
+It also requires pyaudio, which doesn't come with Enthought. 
+
+This code is built around example code from Enthought, 'spectrum.py' which plots spectrum, waveform, and a spectrogram. It's really well written code. Thank you so much, enthought. 
+
+The CQT is adapted from the minqt.py file of the pyfasst module, by Jean-Louis Durrieu. He in turn adapted it from a Matlab module that uses an implementation of the CQT using a kernel by Anssi Klapuri. Find out more about pyfasst at https://pypi.python.org/pypi/pyFASST.
+
+
+
+
